@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background: #f8d0e0;
+}
+
+
+.container {
+    line-height: 1.5;
+    text-align: center;
+    padding: 3rem;
+    margin: 90px auto;
+    background: #e7b8cb;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 7px 7px 22px 0.5em #9112aa,
+                inset 7px 7px 22px 0.3em #b116d0;
+    border: 3px solid black;
+}
+
+#grid {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    box-shadow: 5px 5px 30px 0.5em #044309;
+}
+
+h1 {
+    border: 3px solid black;
+    box-shadow: inset 5px 10px 22px 0.25em #9112aa;
+}
